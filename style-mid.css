@@ -1,62 +1,42 @@
-/* body color */
-body {
-    background: #f8f7ff;
-}
-body {
-    padding: 0px 200px;
-    margin: 0px;
-}
-/* first photo */
-.photo {
-    background: url(photos/cute-walking-white-dove-bird-97yoia06q78whchs.jpg);
-    background-size: cover;
-    background-position: top;
-}
-/* photo text */
-.photo p {
-    font-size: 40px;
-    margin: 0px;
-    text-align: center;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 235px 1px 66px;
-    color: white;
-}
-/* content */
+
+/* information */
 table img {
     width: 180px;
 }
-table p {
+#table-p {
     margin: 0px 11px;
-    font-size: 17px;
+    font-size: 15px;
 }
-/* links  */
-.navigation-list {
-    display: flex;
-    justify-content: space-around;
-}
-.list-nav {
+/* top link are showing contact about and home  */
+.n-nav {
     font-size: 27px;
     width: 100%;
     text-align: center;
     padding: 9px;
 }
-.list-nav.active {
+.n-l-1{
+    width:30%;
+    float:left;
+}
+.n-l-2{
+    width:30%;
+    float:left;
+}
+.n-l-3{
+    width:30%;
+    float:right;
+}
+.proactive {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
-/* form */
+/* input from section*/
 form {
     border: 1px solid;
     padding: 18px 14px;
     border-color: black;
     display: flex;
     flex-direction: column;
-}
-.full-width {
-    width: 100%;
-    margin-top: 12px;
-    margin-bottom: 17px;
 }
 .formtext {
     font-size: 18px;
@@ -78,15 +58,39 @@ input#btn {
     width: 77px;
     margin-top: 12px;
 }
-div#box {
+div#my-section {
     background: white;
 }
-/* layout */
-div#detail, #cat-facts, #form-contact {
+/* design */
+div#outline, #dove-facts-by-jashan, #contact-to-contact {
     padding: 10px;
 }
-/* footer */
+/* section for footer */
 footer {
     padding: 10px;
     text-align: right;
+}
+/* body color */
+body {
+    background: #f8f7ff;
+}
+body {
+    padding: 0px 200px;
+    margin: 0px;
+}
+/* top most photo */
+.photo {
+    background: url(photos/cute-walking-white-dove-bird-97yoia06q78whchs.jpg);
+    background-size: cover;
+    background-position: top;
+}
+/* picture text */
+.photo p {
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 235px 1px 66px;
+    color: white;
 }
